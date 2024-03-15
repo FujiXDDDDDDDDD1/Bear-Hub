@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear Hub</title>
+    <style>
+        /* สไตล์ CSS สำหรับหน้าเว็บ */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .rainbow-text {
+            font-size: 48px; /* เพิ่มขนาดตัวอักษรใหญ่ขึ้น */
+            background-image: linear-gradient(to right, rgb(40, 151, 255), indigo, rgb(56, 159, 255), rgb(226, 98, 255), rgb(255, 66, 233), rgb(33, 207, 255), rgb(251, 8, 255));
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: rainbow 2s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0 50%; }
+        }
+
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #444;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 60px;
+            margin: 10px auto;
+            background-color: #ffffff;
+            border-radius: 5px;
+            text-align: center;
+            max-width: 5000px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        section img {
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        section div {
+            text-align: left;
+        }
+
+        section h3 {
+            margin-top: 0;
+            font-size: 28px; /* เพิ่มขนาดตัวอักษรใหญ่ขึ้น */
+        }
+
+        section h {
+            font-size: 20px; /* เพิ่มขนาดตัวอักษรใหญ่ขึ้น */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fffcfc;
+            padding: 5px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="rainbow-text">
+            ยินดีต้อนรับเข้าสู่ Bear Hub
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://rj4gyg-5000.csb.app/Home">หน้าหลัก</a></li>
+            <li><a href="https://rj4gyg-5000.csb.app/นิยายปลอม">นิยายปลอม</a></li>
+            <li><a href="https://rj4gyg-5000.csb.app/เรื่องราวของเพื่อน">เรื่องราวของเพื่อน</a></li>
+        </ul>
+    </nav>
+    <h2>3 เรื่องที่แนะนำ</h2>
+    <section>
+        <div>
+            <a href="https://rj4gyg-5000.csb.app/เรื่องของเกม"><img src="https://media.discordapp.net/attachments/979776247112556544/1214994028605472878/IMG_20240209_185305.jpg?ex=65fb225d&is=65e8ad5d&hm=3df0c45b07ab55fd8a3d33f2b395f7837d91fbe2b77b678c31614b703c611b1d&=&format=webp&width=496&height=662" alt="รูปเข้าไปอ่านเนื้อหาของเกม" width="250" height="350"></a>
+            <figcaption>เรื่องราวของเกมเด็กชาย ภาษิต</figcaption>
+        </div>
+        <div>
+            <a href="https://rj4gyg-5000.csb.app/เกมน้อยคอยรัก"><img src="https://media.discordapp.net/attachments/979776247112556544/1215273083641012274/OIG3.jpg?ex=65fc2641&is=65e9b141&hm=2e59887fceed834ee9b198d02043924b385468ff35fd9ae647c22734283e1fed&=&format=webp&width=662&height=662" alt="รูปเข้าไปอ่านเนื้อหาของเกม" width="250" height="350"></a>
+            <figcaption>นิยายปลอม เรื่องเกมน้อยคอยรัก</figcaption>
+        </div>
+        <div>
+        <a href="https://rj4gyg-5000.csb.app/ดิวน้อยร้อยลีลา 1"><img src="https://media.discordapp.net/attachments/979776247112556544/1215665868919537766/Picsart_24-03-08_21-21-24-096.jpg?ex=65fd9411&is=65eb1f11&hm=014b3a0c53dcd1d255dc1ad5c61c9c5bc7d504da147da23d3133afb825be3409&=&format=webp&width=370&height=662" alt="รูปเข้าไปอ่านเนื้อหาของดิว" width="250" height="250"></a>
+            <figcaption>นิยายปลอม เรื่องดิวน้อยร้อยลีลา (18+)</figcaption>
+        </div>
+        <div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bear Hub</p>
+    </footer>
+</body>
+</html>
